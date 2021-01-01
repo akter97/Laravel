@@ -461,6 +461,7 @@ Event Venue
             width: 25%;
             float: left;
             display: inline-block; 
+            overflow: hidden;
 } 
 
 .Event-Venue-section .imag-section .images img{
@@ -471,8 +472,7 @@ Event Venue
                         transition: .5s;
     }
 .Event-Venue-section .imag-section .images img:hover{
-                        width: 110%;
-                        height: 250px;
+                        transform: scale(1.2);
                         
     } 
 
